@@ -1,54 +1,15 @@
+//The code provided is a minimal Dart program containing only the `main` function. In Dart, the `main` function serves as the entry point for any application. When you run a Dart program, execution begins with the `main` function. This is similar to the `main` function in other programming languages like C, C++, or Java.
+//The syntax `void main()` indicates that the function does not return any value (`void` is the return type). The parentheses `()` suggest that the function does not take any parameters. Inside the curly braces `{ }`, you would typically include the code that defines the behavior of your program. However, in this case, the body of the `main` function is empty, meaning the program does nothing when executed.
+//This is a valid Dart program, but it is essentially a placeholder or starting point. You can add logic, function calls, or other operations inside the `main` function to build out your application. For example, you might print a message to the console, initialize variables, or call other functions from here.
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-// With Flutter, you create user interfaces by combining "widgets"
-// You'll learn all about them (and much more) throughout this course!
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // Every custom widget must have a build() method
-  // It tells Flutter, which widgets make up your custom widget
-  // Again: You'll learn all about that throughout the course!
-  @override
-  Widget build(BuildContext context) {
-    // Below, a bunch of built-in widgets are used (provided by Flutter)
-    // They will be explained in the next sections
-    // In this course, you will, of course, not just use them a lot but
-    // also learn about many other widgets!
-    return MaterialApp(
-      title: 'Flutter First App',
-      theme: ThemeData(useMaterial3: true),
+  runApp(
+    const MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
-        ),
-        body: Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(12),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
-              Text(
-                'Flutter - The Complete Guide Course',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              SizedBox(height: 16),
-              Text(
-                'Learn Flutter step-by-step, from the ground up.',
-                textAlign: TextAlign.center,
-              ),
-            ],
-          ),
-        ),
+        backgroundColor: Color.fromARGB(255, 42, 171, 6),
+        body: Center(child: Text('Hello World Now with Flutter!')),
       ),
-    );
-  }
+    ),
+  );
 }
