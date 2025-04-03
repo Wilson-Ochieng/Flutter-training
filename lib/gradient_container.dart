@@ -1,5 +1,6 @@
 import 'package:first_app/styled_text.dart';
 import 'package:flutter/material.dart';
+
 //Created variables instead of hardcoding
 const  startAlignment = Alignment.topLeft;
 const  endAlignment = Alignment.bottomRight;
