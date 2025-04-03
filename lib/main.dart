@@ -5,10 +5,12 @@ void main() {
   runApp(MaterialApp(
     home: Scaffold(
       body: Center(
-        child: const Text(style: TextStyle(
+        child: const Text(style: 
+        TextStyle(
           fontSize: 34.8,
           fontWeight: FontWeight.bold,
-        )'Hello, World!'),
+          color: Color.fromARGB(202, 222, 52, 0),
+        ),'Hello, World!'),
       ),
     ),
   ));
