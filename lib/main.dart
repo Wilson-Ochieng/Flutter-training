@@ -2,43 +2,13 @@
 //The syntax `void main()` indicates that the function does not return any value (`void` is the return type). The parentheses `()` suggest that the function does not take any parameters. Inside the curly braces `{ }`, you would typically include the code that defines the behavior of your program. However, in this case, the body of the `main` function is empty, meaning the program does nothing when executed.
 //This is a valid Dart program, but it is essentially a placeholder or starting point. You can add logic, function calls, or other operations inside the `main` function to build out your application. For example, you might print a message to the console, initialize variables, or call other functions from here.
 import 'package:flutter/material.dart';
+import 'package:first_app/gradient_container.dart';
 
 void main() {
   runApp( const MaterialApp(
     home:   Scaffold(
-      body:  GradientContainer(),
+      body:   GradientContainer(),
     ),
   ));
 }
 
-class  GradientContainer extends  StatelessWidget {
-
-  //Constuctor Function  For  GradientContainer
-  const GradientContainer ({super.key});
-
-
-  @override
-   build(context){
-     return Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(colors: [
-            Color.fromARGB(205, 2, 78, 210),
-            Color.fromARGB(255, 212, 181, 6)
-          ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-        ),
-        child: const Center(
-          child: Text(
-            'Hello World!',
-            style: TextStyle(
-              color: Color.fromARGB(255, 212, 207, 207),
-              fontSize: 28.5,
-            ),
-          ),
-        ),
-      );
-    
-
-   }
-
-
-}
