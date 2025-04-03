@@ -4,8 +4,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      body: Container(Center(
-        child: Text('Hello World'))),
+      body: Center(
+        child: const Text(style: TextStyle(
+          fontSize: 34.8,
+          fontWeight: FontWeight.bold,
+        )'Hello, World!'),
+      ),
     ),
   ));
 }
