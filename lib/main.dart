@@ -13,6 +13,7 @@ void main() {
               const Color.fromARGB(205, 2, 78, 210),
               const Color.fromARGB(255, 212, 181, 6),
             ]),
+            
           ),
           child: const Center(
             child: Text('Hello World Now with Flutter!'),
