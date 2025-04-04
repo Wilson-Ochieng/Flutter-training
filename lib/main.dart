@@ -2,10 +2,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp( const MaterialApp(
     home: Scaffold(
+      backgroundColor: Color.fromRGBO(255, 9, 255,20),
       body: Center(
-        child: const Text(style: 
+        child:  Text(style: 
         TextStyle(
           fontSize: 34.8,
           fontWeight: FontWeight.bold,
