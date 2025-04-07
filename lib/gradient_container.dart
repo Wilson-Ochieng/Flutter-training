@@ -19,7 +19,7 @@ const GradientContainer ({super.key});
                 Color.fromARGB(255, 143, 27, 161),
               ],
             ),),
-            child:  const Center(child:StyledText() ));
+            child:  const Center(child: StyledText('Hello World'),));
 
   }
 
