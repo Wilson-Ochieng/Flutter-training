@@ -8,11 +8,11 @@ void main() {
     MaterialApp(
       home: Scaffold(
         body: Container(
-          decoration: BoxDecoration(
+          decoration:  const BoxDecoration(
             
             gradient: LinearGradient(colors: [
-              const Color.fromARGB(205, 2, 78, 210),
-              const Color.fromARGB(255, 212, 181, 6),
+               Color.fromARGB(205, 2, 78, 210),
+               Color.fromARGB(255, 212, 181, 6),
               
               
             ]),
