@@ -30,21 +30,21 @@ Follow these steps to build your Flutter app with widgets, using VS Code shortcu
        ),
      ),
    );
-### 3. Add a Container with a Gradient Background
+### 3. **Add a Container with a Gradient Background**
 Inside the Scaffold, replace the body with a Container.
 Use BoxDecoration and LinearGradient to add a gradient background.
 Tip: Use Ctrl + Space after typing BoxDecoration or LinearGradient to see available options.
 
-### 4. Add a Center Widget
+### 4. **Add a Center Widget**
 Wrap the Text widget with a Center widget to center-align it.
 
 Tip: Use Ctrl + Space after typing Center to explore its properties.
 
-### 5. Add a Text Widget
+### 5. **Add a Text Widget**
 Inside the Center widget, add a Text widget to display your message.
 Tip: Use Ctrl + Space after typing Text to explore its properties, such as style for customizing fonts.
 
-### 6. Run Your App
+### 6.  **Run Your App**
 Save your changes (Ctrl + S).
 Run the app using the terminal command:
 Alternatively, press F5 in VS Code to start 
